@@ -9,3 +9,7 @@ It is used to predict values of Y using features and their nth degree. I started
 ## Logistic Regression
 It is used to model the probability of discrete outcomes and give the predicted Y values. We used sigmoid funtion. I used a function to train my data and get theta values. Then multiply those theta with test sample to get hypothesis. Then took sigmoid of it and the value with maximum probability was the predicted Y value. Then I compared it with given Y value to get accuracy.
 #### Accuracy = 69.446%
+## K- Nearest Neighbors
+It is used to predict the correct class for the test data. The model first claculates distance of each testing data with training datas. Then it checks the k nearest points to predict. The predicted Y is compared with the given Y values to get accuracy.
+#### Accuracy = 80.36%
+## K- Means Clustering
