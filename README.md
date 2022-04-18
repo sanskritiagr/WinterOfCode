@@ -13,3 +13,5 @@ It is used to model the probability of discrete outcomes and give the predicted 
 It is used to predict the correct class for the test data. The model first claculates distance of each testing data with training datas. Then it checks the k nearest points to predict. The predicted Y is compared with the given Y values to get accuracy.
 #### Accuracy = 80.36%
 ## K- Means Clustering
+This model groups the given data into clusters based on the similarity between them. Firstly, I plotted a graph of wcss vs k. It came out to be minimum for k=30. So, I made 30 clusters for the dataset. 
+## Neural Network
