@@ -35,6 +35,7 @@ For accuracy, I used the same idea as I did in logistic regression.
 #### Accuracy = 83.46%
 ## K- Means Clustering
 This model groups the given data into clusters based on the similarity between them.
+It uses only 60000 examples.
 Firstly, I plotted a graph of wcss vs k. It came out to be minimum for k=30. 
 So, I made 30 clusters for the dataset. 
 First, we took random points to be center of our clusters.
@@ -43,10 +44,11 @@ The point having minimum distance with a center was assigned the cluster belongi
 Then new centers were made by taking mean of points of that cluster.
 Then this process is repeated till I get same value for centers.
 Then I gave each cluster a label by using the given values for our data Y.
-Though it is unsupervised learning and we are not supposed to calculate accuracy. Still I wanted to check my code. So, I printed accuracy.
+Though it is unsupervised learning and we are not supposed to calculate accuracy. Still I wanted to check my code. So, I calculated accuracy.
 #### Accuracy = 42.445%
 ## Neural Network
 This model tries to predict outputs for the given inputs. It consist of 1 input layer, 1 hidden layer and 1 output layer.
+My system was crashing again and again. So, I used only 40000 training examples.
 I initialised thetas and biases, then use forward and back propagation to get optimum values. 
 Those values of thetas and biases were used to get predicted Y values for testing data.
 ERROR: I am getting only 1 output for ach example in train and test data.
