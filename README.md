@@ -15,3 +15,5 @@ It is used to predict the correct class for the test data. The model first clacu
 ## K- Means Clustering
 This model groups the given data into clusters based on the similarity between them. Firstly, I plotted a graph of wcss vs k. It came out to be minimum for k=30. So, I made 30 clusters for the dataset. 
 ## Neural Network
+This model tries to predict outputs for the given inputs. It consist of 1 input layer, 1 hidden layer and 1 output layer. We initialised thetas and biases, then use forward and back propagation to get optimum values. 
+ERROR: I am getting same predicted Y values for train and test. 
