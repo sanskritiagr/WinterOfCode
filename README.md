@@ -21,8 +21,8 @@ It is used to predict the correct class for the test data. I used only 62000 tra
 We are given a data set of items with certain features. The algorithm will  group them into k groups or clusters based on the similarity between them. It uses only 60000 examples. <br />
 Firstly, I plotted a graph of WCSS versus k (WCSS is the sum of squared distances between each point and centroid of that cluster).<br />
 It showed a dip for k=30. So, I made 30 clusters for the dataset. First, we took random points to be the center of our clusters. Then, calculate the distance of each center with other points. The point having minimum distance with a center was assigned to the cluster belonging to that center. Then, new centers were made by taking the mean of points of that cluster. Then this process is repeated till I get the same value for centers.<br />
-Then I gave each cluster a label by using the given values for our data Y. Though it is an Unsupervised learning algorithm and we are not supposed to calculate accuracy. Still, I wanted to check my code. So, I calculated accuracy.
-#### Accuracy = 42.445%
+Then I gave each cluster a label by using the given values for our data Y. Though it is an Unsupervised learning algorithm and we are not supposed to calculate accuracy. Still, I wanted to check my code. So, I calculated accuracy. You can ignore that if you want.
+
 ## Neural Network
 It involves neurons, connections, weights, biases, propagation function, and a learning rule. The learning rule modifies the weights and biases of the variables in the network.<br />
 This model tries to predict outputs for the given inputs. It consists of 1 input layer, 1 hidden layer and 1 output layer. My system was crashing again and again. So, I used only 60000 training examples. I initialized thetas and biases, then use Forward and Back propagation to get optimum values. Those values of thetas and biases were used to get predicted values for testing data. Then I calculated the accuracy using the same idea I used in Logistic Regression.
