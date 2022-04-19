@@ -26,4 +26,4 @@ Then I gave each cluster a label by using the given values for our data Y. Thoug
 ## Neural Network
 It involves neurons, connections, weights, biases, propagation function, and a learning rule. The learning rule modifies the weights and biases of the variables in the network.<br />
 This model tries to predict outputs for the given inputs. It consists of 1 input layer, 1 hidden layer and 1 output layer. My system was crashing again and again. So, I used only 60000 training examples. I initialized thetas and biases, then use Forward and Back propagation to get optimum values. Those values of thetas and biases were used to get predicted values for testing data. Then I calculated the accuracy using the same idea I used in Logistic Regression.
-#### Accuracy = 67.878%
+#### Accuracy = 67.885%
