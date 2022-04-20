@@ -3,8 +3,9 @@ This project has 6 models - Linear Regression, Polynomial Regression, Logistic R
 ## Technology Stack
 I used Google Colaboratory to write my code. The language used is Python. Various python libraries like Numpy, Pandas and Matplotlib are also used.
 ## Linear Regression
-It is used to predict Y values using features(X1, X2…). This is what I did to make it work.
-I made a function first to train my model and got theta values. Then theta was used to get Y values for my testing data. Then I calculated Root Mean Squared Error by comparing it with the given testing Y values.
+It is used to predict Y values using features(X1, X2…). This is what I did. <br/>
+I made a function first to train my model and got theta values.Cost function values were plotted with no. of iterations. Cost converged till 1907 for 5000 iterations. Then theta was used to get Y values for my testing data. <br/>
+Then I calculated Root Mean Squared Error by comparing it with the given testing Y values.
 #### Root Mean Squared Error = 1.829
 ## Polynomial Regression
 It is used to predict Y values using given features and their nth degree. I used my knowledge of linear regression to write its function. I started with degree n=2 and tried it till n=4. I got maximum accuracy for n=3. Then I made a function to train my model and get theta values. Then predicted Y for testing data using theta. Subsequently, Root Mean Squared Error was calculated. 
